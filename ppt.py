@@ -11,7 +11,7 @@ if escolha == 1:
 elif escolha == 2:
     print("Sua escolha foi Papel")
 
-else:
+elif escolha == 3:
     print("Sua escolha foi Tesoura\n")
 
 while escolha >= 4:
@@ -47,18 +47,18 @@ elif maquina >= 34 and maquina <= 63:
     if escolha == 2:
             print("Empate")
     elif escolha == 1:
-        print("Voce ganhou")
+        print("Voce perdeu")
     else:
-        print("Você perdeu")
+        print("Você ganhou")
     
 elif maquina >= 64 and maquina <= 100:
     print("Maquina escolheu tesoura")
     if escolha == 3:
         print("Empate")
-    elif escolha == 1:
-        print("Voce ganhou")
-    else:
+    elif escolha == 2:
         print("Você perdeu")
+    elif escolha == 3:
+        print("Você ganhou")
 
 
 print("~~" * 40)
